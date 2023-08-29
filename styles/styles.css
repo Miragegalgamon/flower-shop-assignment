@@ -1,0 +1,229 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+h1{
+    text-decoration: none;
+}
+.nav_bar{
+    height:80px;
+    width: 100%;
+    display: inline-block;
+    background-color:#fceef1;
+    padding-top: 20px;
+}
+.nav_bar ul {
+    width: 85%;
+    position: relative;
+    left: 160px;
+}
+.nav_bar ul li{
+    display: inline;
+    
+}
+.nav_item{
+    font-size: 25px;
+    padding: 10px;
+    float: right;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+.home{
+    background-color:#fceef1;
+    display: inline-block;
+    width: 100%;
+    height: 89vh;
+}
+.home ul {
+    display: inline;
+
+}
+.home_text{
+  width: 35%;
+  position: absolute;
+  left: 200px;
+  top: 300px;
+  font-size: 20px;
+
+}
+.home_text h1{
+    font-size: 70px;
+    font-weight: 700;
+
+}
+.home_image{
+    width: 50%;
+    position: absolute;
+    left: 1050px;
+    top: 140px;
+}
+
+.btn{
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 30px;
+    background: #b31730;
+    padding: 10px 20px 10px 20px;
+    border: solid 0px;
+}
+.featured_flowers{
+    width: 85%;
+    position: relative;
+    left: 160px;
+    height: 100vh;
+    display: inline-block;
+
+}
+.featured_text{
+    padding-top: 80px;
+    padding-bottom: 80PX;
+    text-align: center;
+}
+.featured_flowers h3{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.featured_flowers ul li{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    left: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+    padding: 20px;
+   
+}
+.featured_image{
+    border-radius: 500px 500px 0px 0px ;
+    border: #ffffff solid 20px;
+}
+.featured_name{
+    position: relative;
+    left: 30px;
+}
+.service{
+    width: 100%;
+    height: 300px;
+    padding: 80px;
+}
+.service ul{
+    width: 75%;
+    background-color: #f4f0f7;
+    position: absolute;
+    right: 270px;
+    border-radius: 20px;
+
+}
+.service ul li{
+    display: inline-block;
+    padding-left: 100px;
+    width: 25%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.sale{
+    height: 500px;
+    width: 100%;
+    background-color: #fcf1f3;
+}
+.sale ul{
+    display: inline-block;
+}
+
+.sale_text{
+    width: 70%;
+     text-align: center;
+    font-size: 25px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+.sale_text h2{
+    font-size: 60px;
+}
+.sale_image{
+    position: relative;
+    left: 1250px;
+    bottom: 220px;
+    
+}
+.gallary{
+    height: 650px;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 20px;
+}
+.gallary h2{
+    font-size: 50px;
+}
+.gallary ul li{
+    display: inline;
+    padding: 10px;
+}
+
+.extra{
+    background-color: #f4f0f7;;
+    color: #b31730;
+    height: 300px;
+    width: 100%;
+    padding-top: 20px;
+    font-size: 35px;
+    text-align: center;
+}
+.extra ul li{
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+h5{
+    color: black;
+}
+.contact{
+    height: 700px;
+}
+.contact_box{
+    width: 75%;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    left: 250px;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-size: cover;
+    border-radius: 20px;
+    font-size: 30Px;
+    text-align: center;
+}
+.contact_box h1 {
+    padding-top: 100px;
+}
+
+.contact_box ul li{
+    display: inline-block;
+}
+#email_input{
+    height: 20px;
+    width: 500px;
+    border-radius: 8px;
+    color: #000000;
+    font-size: 30px;
+    background: #ffffff;
+    padding: 20px;
+    border: solid 0px;
+}
+.footer{
+    height: 300px;
+    background-color: #111010;
+    color: #f4f0f7;
+    text-align: center;
+    font-size: 20px;
+}
